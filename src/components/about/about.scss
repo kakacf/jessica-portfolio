@@ -1,0 +1,49 @@
+.container-fluid {
+    position: relative;
+    padding: 10px!important;
+    background-color: #f5f6f7;
+    
+}
+
+.title {
+    margin: 0;
+    padding-top: 15px;
+}
+
+.outer-div {
+    padding: 0 25px 0 25px;
+    text-align: left;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.dot {
+    position: static;
+    text-align: right;
+}
+
+.dot:before {
+    content: ' ';
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    background-color: #a8a8a8;
+    margin-top: 10px;
+    margin-left: 25px; // 0.5px
+    z-index: 1;
+}
+
+.dot:after {
+    content: '';
+    width: 1px;
+    height: 80%;
+    background-color: #979797;
+    display: block;
+    margin-left: 29px; // 4.5px
+    top: 10px;
+    z-index: 0;
+}
