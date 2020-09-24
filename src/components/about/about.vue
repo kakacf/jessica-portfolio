@@ -5,11 +5,11 @@
         <h3 class="title">About</h3>
       </div>
 
-      <div class="container">
+      <b-container>
         <div v-for="(about, index) in aboutData" :key="index">
           <AboutItem :heading="about.heading" :content="about.content" />
         </div>
-      </div>
+      </b-container>
     </div>
   </div>
 </template>

@@ -1,14 +1,16 @@
 <template>
-  <div class="row">
-    <div class="col-1 row">
-      <div class="dot"></div>
-    </div>
-    <div class="col-11">
-      <p>
-        <b>{{heading}}</b>
-      </p>
-      {{content}}
-    </div>
+  <div>
+    <b-row>
+      <b-col cols="1">
+        <div class="dot"></div>
+      </b-col>
+      <b-col cols="11">
+        <p>
+          <b>{{heading}}</b>
+        </p>
+        {{content}}
+      </b-col>
+    </b-row>
   </div>
 </template>
 
@@ -24,7 +26,6 @@ export default {
 <style lang="scss" scoped>
 .dot {
   position: static;
-  text-align: right;
 }
 
 .dot:before {
@@ -43,11 +44,11 @@ export default {
 .dot:after {
   content: "";
   width: 1px;
+  position: absolute;
   height: 80%;
   background-color: #979797;
   display: block;
   margin-left: 29px; // 4.5px
-  top: 10px;
   z-index: 0;
 }
 </style>
