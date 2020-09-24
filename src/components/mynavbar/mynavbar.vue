@@ -1,7 +1,7 @@
 <template>
     <div>
         <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="#">Jessica Wang</a>
+            <a class="navbar-brand" href="#" v-once>{{fullName}}</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" 
                     data-target="#navbarTogglerDemo03" 
                     aria-controls="navbarTogglerDemo03" 
@@ -11,29 +11,26 @@
             
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <!-- <li class="nav-item active">
-                        <a class="nav-link" href="#id-basicInfo">
-                        Home 
-                        <span class="sr-only">(current)</span></a>
-                    </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#id-about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#id-work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#id-contact">Contact</a>
+                        <a class="nav-link" href="#id-about">{{about}}</a>
                     </li>
                     <!-- <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link" href="#id-work">{{work}}</a>
                     </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#id-project">{{project}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#id-contact">{{contact}}</a>
+                    </li>
                 </ul>
             </div>
         </nav>
     </div>
+    
 </template>
 
+
+<!-- Add "scoped" attribute to limit CSS to this component only --> 
 <script src="./mynavbar.js"></script>
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" src="./mynavbar.scss" scoped></style>
