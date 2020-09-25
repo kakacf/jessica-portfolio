@@ -53,6 +53,7 @@
                 <span>{{ education.major }}</span>
               </div>
               <hr v-if="!education.courses" />
+              <br />
               <div v-if="education.courses" class="font-14">
                 <div
                   v-for="(course, key, index) in education.courses"
