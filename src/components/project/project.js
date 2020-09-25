@@ -1,14 +1,10 @@
 import myInfo from '../../data/myInfo.json';
 
 export default {
-    name: 'work',
-    props: {
-        
-    },
+    name: 'project',
     data() {
         return {
-            title: myInfo.work
-        
+            title: myInfo.project
         };
     },
     method: {

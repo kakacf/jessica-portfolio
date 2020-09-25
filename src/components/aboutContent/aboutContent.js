@@ -1,13 +1,13 @@
-import myInfo from '../../data/myInfo.json';
 
 export default {
-    name: 'work',
+    name: 'aboutContent',
     props: {
-        
+        title: String,
+        content: String,
+        isSimpleTpl: Boolean
     },
     data() {
         return {
-            title: myInfo.work
         
         };
     },
