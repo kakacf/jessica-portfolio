@@ -1,6 +1,6 @@
 
 export default {
-    name: 'aboutContent',
+    name: 'AboutContent',
     props: {
         title: String,
         content: String,

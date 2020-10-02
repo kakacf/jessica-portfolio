@@ -5,7 +5,8 @@
         <div class="flex-fill j-container">
           <basic-info></basic-info>
           <about class="margin-top-10"></about>
-          <work class="margin-top-10"></work>
+          <!-- <work class="margin-top-10"></work> -->
+          <project class="margin-top-10"></project>
         </div>
     </div>
     <!-- <img alt="Vue logo" src="./assets/logo.png">
@@ -15,10 +16,12 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import mynavbar from "./components/mynavbar/mynavbar.vue";
-import basicInfo from "./components/basicInfo/basicInfo.vue";
-import about from "./components/about/about.vue";
-import work from "./components/work/work.vue";
+import mynavbar from "./components/Mynavbar/Mynavbar.vue";
+import basicInfo from "./components/BasicInfo/BasicInfo.vue";
+import about from "./components/About/About.vue";
+// import work from "./components/work/work.vue";
+import project from "./components/Project/Project.vue";
+
 
 export default {
   name: "App",
@@ -26,7 +29,8 @@ export default {
     mynavbar,
     basicInfo,
     about,
-    work
+    // work,
+    project,
   },
 };
 </script>

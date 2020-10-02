@@ -1,14 +1,17 @@
-import myInfo from '../../data/myInfo.json';
+import * as basicInfo from '../../data/data';
 
 export default {
-    name: 'basicInfo',
+    name: 'BasicInfo',
     data() {
         return {
-           name: myInfo.name,
-           subTitle: myInfo.job
+           info: {},
         };
     },
     methods: {
+
+    },
+    created() {
+        this.info = basicInfo.info;
 
     }
 }

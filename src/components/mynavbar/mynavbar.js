@@ -1,22 +1,20 @@
-import myInfo from '../../data/myInfo.json';
+import * as mynavbar from '../../data/data';
 
 export default {
-    name: 'mynavbar',
+    name: 'Mynavbar',
     data() {
         return {
-            // their_name: this.$route.params.name // 未裝router
-            fullName: myInfo.fullName,
-            about: myInfo.about,
-            work: myInfo.work,
-            project: myInfo.project,
-            contact: myInfo.contact
-
+            info: {}
 
         };
-    },// data()
+    },
     methods: {
     
-    }// methods
+    },
+    created() {
+        this.info = mynavbar.info
+
+    }
 }
 
 

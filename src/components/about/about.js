@@ -1,8 +1,8 @@
-import aboutContent from "../../components/aboutContent/aboutContent.vue";
-import * as about from "../../data/data";
+import aboutContent from '../../components/AboutContent/AboutContent.vue';
+import * as about from '../../data/data';
 
 export default {
-  name: "about",
+  name: 'About',
   components: {
     aboutContent,
   },
@@ -18,5 +18,7 @@ export default {
     this.me = about.me;
     this.work = about.work;
     this.education = about.education;
-  },
+  }
+
+  
 };
