@@ -14,9 +14,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#id-about">{{ info.about }}</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#id-work">{{work}}</a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#id-project">{{ info.project }}</a>
                     </li>

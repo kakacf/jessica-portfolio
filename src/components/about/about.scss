@@ -1,13 +1,10 @@
 .container-fluid {
     position: relative;
     padding: 10px!important;
-    background-color: #f5f6f7;
+    // background-color: #f5f6f7;
     
 }
 
-.container {
-    padding: 0px!important;
-}
 
 .title {
     // margin: 0;
@@ -59,6 +56,9 @@
     padding: 0px;
 }
 
+.company {
+    color: rgb(11, 191, 197);
+}
 // .dot {
 //     position: static;
 //     text-align: right;

@@ -1,11 +1,11 @@
 <template>
 	<div>
-		<div id="id-about" class="container-fluid">
+		<b-container fluid id="id-about">
 			<div>
-				<h3 class="title" v-once>About</h3>
+				<h2 class="title" v-once>About</h2>
 			</div>
 
-			<div class="container">
+			<div>
 				<!-- me -->
 				<about-content
 					:is-simple-tpl="true"
@@ -14,11 +14,11 @@
 				<!-- work experiences -->
 				<about-content :is-simple-tpl="false" :title="work.heading">
 					<div
-						class="col"
+						class="b-col"
 						v-for="(experience, index) in work.experiences"
 						:key="index">
 						<div class="font-16">
-							<span><b>{{ experience.title }} @ {{ experience.company }}</b></span>
+							<span><b>{{ experience.title }}</b> <b class="company"> - {{ experience.company }}</b></span>
 						</div>
 						<div class="font-14">
 							<span>{{ experience.year }}</span>
@@ -36,7 +36,7 @@
 				<about-content
 					v-bind:is-simple-tpl="false"
 					v-bind:title="education.heading">
-					<div class="col">
+					<div class="b-col">
 						<div
 							v-for="(education, index) in education.educations"
 							:key="index">
@@ -62,7 +62,7 @@
 					</div>
 				</about-content>
 			</div>
-		</div>
+		</b-container>
 	</div>
 </template>
 

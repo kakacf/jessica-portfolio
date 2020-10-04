@@ -22,11 +22,11 @@ const work = {
     {
       title: 'Software Engineer',
       company: '悅康科技',
-      year: 'Oct.2017 - Now',
+      year: 'Oct.2017 - Present',
       contents: {
         // 提供醫療人員居家訪視之排班接單紀錄功能，訪視時提供病患住家定位服務，訪視完畢記錄病情簽名等功能。
-        'Homedical 醫生到我家：': '使用 AngularJS 框架撰寫，資料庫串接 Firebase。Web部分：醫療人員個人管理後台、營運中心管理後台。App部分：醫療人員操作介面。',
-        '血液透析系統：': '使用 AngularJS 框架撰寫，主要負責前端畫面及邏輯，配合個不同醫院需求撰寫不同專案。'
+        'Homedical 醫生到我家：': 'AngularJS, HTML, CSS, Firebase',
+        '血液透析系統：': 'AngularJS, HTML, CSS, MongoDB, ECharts'
       }
     },
     {
@@ -34,9 +34,9 @@ const work = {
       company: '工樂行動科技',
       year: 'Mar.2017 - Sep.2017',
       contents: {
-        'Web：': '使用 Javascript 撰寫管理網站平台，連接後台Api  (AJAX)，串接過 Google Map Api，使用過 Chart.js 及 Google Charts 做圖表呈現。',
-        'App：': '使用 Swift3 撰寫 iOS App，UI畫面(hard code)，串接後台，調用手機相機，掃描並解析 QRCode，偵測使用者Current Location。',
-        'Design：': 'Sketch、Zeplin'
+        'Web：': 'Javascript, AJAX, Google Map API, Chart.js, Google Charts',
+        'App：': 'Swift3, Camera, QRCode, UI-hard code',
+        'Design：': 'Sketch, Zeplin'
       }
     },
     {
@@ -92,10 +92,41 @@ const education = {
 const project = {
   items: [
     {
-      projectName: 'Homedical',
+      projectName: 'Homedical 醫生到我家 | Web / App',
       projectImage: 'homedical.png',
-      projectContent: 'About',
-    }
+      projectContent: 'Web部分：醫療人員個人管理後台、營運中心管理後台。App部分：醫療人員操作介面。',
+      isImgLeft: true,
+    },
+    {
+      projectName: '血液透析系統 | Web / App',
+      projectImage: 'dialysissystem.png',
+      projectContent: '主要負責前端畫面及邏輯，配合個不同醫院需求撰寫不同專案。',
+      isImgLeft: false,
+    },
+    {
+      projectName: 'PaPaLewis 管理者後台 | Web',
+      projectImage: 'papalewis.png',
+      projectContent: 'Javascript, AJAX, Google Map Api, Chart.js, Google Charts',
+      isImgLeft: true,
+    },
+    {
+      projectName: 'ismartboss 發票掃描 | iOS App',
+      projectImage: 'ismartboss.png',
+      projectContent: 'Swift3, Camera, QRCode, UI-hard code, CLLocation',
+      isImgLeft: false,
+    },
+    {
+      projectName: 'Travobook 旅書 | Android App',
+      projectImage: 'travobook.png',
+      projectContent: 'Android Studio, Java, Camera, SQLite3, Google Maps Android API v2',
+      isImgLeft: true,
+    },
+    {
+      projectName: 'Instagrom | iOS App',
+      projectImage: 'instagrom.png',
+      projectContent: 'Xcode, Swift3, Firebase, Camera',
+      isImgLeft: false,
+    },
   ]
   
 };
