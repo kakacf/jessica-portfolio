@@ -9,9 +9,7 @@ export default {
     data() {
         return {
             info: {},
-            title: '',
-            image: '',
-            content: ''
+            projectItems: []
         };
     },
     method: {
@@ -20,9 +18,11 @@ export default {
     },
     created() {
         this.info = project.info;
-        this.title = 'Homedical';
-        this.image = 'homedical.png';
-        this.content = 'k;jew;jefjwlekfldwswswswfdsdscsdcsdcmklwmfjefjwlekfldwswswswfdsdscsdcsdcmklwmfjefjwlekfldwswswswfdsdscsdcsdcmklwmfjefjwlekfldwswswswfdsdscsdcsdcmklwmf';
+        this.projectItems = project.project.items;
+
+        
+        
+
     },
 
 }
