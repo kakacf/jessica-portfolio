@@ -131,6 +131,18 @@ const project = {
   
 };
 
+const contact = {
+  
+    title: 'Contact',
+    message: 'Feel free to reach out through any platforms bellow:',
+    email: 'chienfang0611@gmail.com',
+    phone: '+886933302134',
+    github: 'GitHub'
+  
 
 
-export { info, me, work, education, project };
+};
+
+
+
+export { info, me, work, education, project, contact };

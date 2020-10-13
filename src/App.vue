@@ -7,6 +7,8 @@
           <about class="margin-top-10"></about>
           <!-- <work class="margin-top-10"></work> -->
           <project class="margin-top-10"></project>
+          <contact class="margin-top-10"></contact>
+
         </div>
     </div>
     <!-- <img alt="Vue logo" src="./assets/logo.png">
@@ -19,8 +21,8 @@
 import mynavbar from "./components/Mynavbar/Mynavbar.vue";
 import basicInfo from "./components/BasicInfo/BasicInfo.vue";
 import about from "./components/About/About.vue";
-// import work from "./components/work/work.vue";
 import project from "./components/Project/Project.vue";
+import contact from "./components/Contact/Contact.vue";
 
 
 export default {
@@ -29,8 +31,8 @@ export default {
     mynavbar,
     basicInfo,
     about,
-    // work,
     project,
+    contact
   },
 };
 </script>
