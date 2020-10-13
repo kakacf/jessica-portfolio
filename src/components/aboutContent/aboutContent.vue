@@ -1,31 +1,38 @@
 <template>
     <div>
-        <b-row>
-            <b-col cols="1">
+        <div class="row">
+            <div class="col-1">
                 <div class="dot"></div>
-            </b-col>
-            <b-col cols="6">
+            </div>
+            <div class="col-6">
                 <span class="title"><b>{{title}}</b></span>
-            </b-col>
-            
-        </b-row>
-        <b-row>
-            <b-col cols="1">
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col-1">
                 <div class="line" ></div>
-            </b-col>
-            <b-col cols="11" v-if="isSimpleTpl">
+            </div>
+
+
+            <div v-if="isSimpleTpl" class="col-11" >
                 <span>{{content}}</span>
                 <p></p>
-            </b-col>
-            <b-col cols="11" v-if="!isSimpleTpl">
+            </div>
+
+
+            <div v-if="!isSimpleTpl" class="col-11" >
                 <slot></slot>
                 <p></p>
-            </b-col>
-            <b-col></b-col>
-        </b-row>
+            </div>
+
+
+
+            <div class="col"></div>
+        </div>
     </div>
 </template>
 
-<script src="./AboutContent.js"></script>
+<script src="./aboutContent.js"></script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" src="./AboutContent.scss" scoped></style>
+<style lang="scss" src="./aboutContent.scss" scoped></style>
