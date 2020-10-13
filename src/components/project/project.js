@@ -1,15 +1,28 @@
-import myInfo from '../../data/myInfo.json';
+import * as project from '../../data/data';
+import projectContent from '../../components/ProjectContent/ProjectContent.vue';
 
 export default {
-    name: 'project',
+    name: 'Project',
+    components: {
+        projectContent
+    },
     data() {
         return {
-            title: myInfo.project
+            info: {},
+            projectItems: []
         };
     },
     method: {
 
 
-    }
+    },
+    created() {
+        this.info = project.info;
+        this.projectItems = project.project.items;
+
+        
+        
+
+    },
 
 }
