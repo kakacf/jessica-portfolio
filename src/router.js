@@ -7,7 +7,7 @@ let router = new VueRouter({
         {
             path:'/',  
             name:'home', 
-            component: () =>import('./views/home1'),
+            component: () =>import('./views/home'),
         },
         {
             path:'/projectimg',  
