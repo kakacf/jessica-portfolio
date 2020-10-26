@@ -26,6 +26,6 @@
     </div>
 </template>
 
-<script src="./AboutContent.js"></script>
+<script src="./about-content.js"></script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" src="./AboutContent.scss" scoped></style>
+<style lang="scss" src="./about-content.scss" scoped></style>

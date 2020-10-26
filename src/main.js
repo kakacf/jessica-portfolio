@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm';
-import App from './App.vue';
+import App from './app.vue';
 import router from './router';
 import VueAnime from 'vue-animejs';
-import './eventBus';
+import './event-bus';
 
 import '@/main.scss';
 

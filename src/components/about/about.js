@@ -1,4 +1,4 @@
-import aboutContent from '../../components/AboutContent/AboutContent.vue';
+import aboutContent from '../../components/about-content/about-content.vue';
 import * as about from '../../data/data';
 
 export default {

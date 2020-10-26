@@ -28,6 +28,6 @@
         </b-row>
 </template>
 
-<script src="./ProjectContent.js"></script>
+<script src="./project-content.js"></script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" src="./ProjectContent.scss" scoped></style>
+<style lang="scss" src="./project-content.scss" scoped></style>

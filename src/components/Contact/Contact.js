@@ -1,5 +1,4 @@
 import * as contact from '../../data/data';
-// import anime from 'animejs/lib/anime.es.js';
 
 export default {
     name: 'Contact',
@@ -42,31 +41,14 @@ export default {
                 delay: 1000
             });
         },
-        
     },
     created() {
         console.log('created letter animation!!!!');
         this.info = contact.contact;
 
-        
-        
-
     },
     mounted() {
         this.letterAnimation();
 
-
-        // this.$bus.$on('contactRefAnchor', (text) => {
-        //     this.isSidebarOpen = true;
-
-        //     // this.$root.$emit('bv::toggle::collapse', 'id-contact')
-
-        //     console.log('contact bus', text);
-          
-        // });
-
-
-
-        
     },
 }

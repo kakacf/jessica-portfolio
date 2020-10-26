@@ -51,5 +51,5 @@
 
 
 <!-- Add "scoped" attribute to limit CSS to this component only --> 
-<script src="./Mynavbar.js"></script>
-<style lang="scss" src="./Mynavbar.scss" scoped></style>
+<script src="./my-navbar.js"></script>
+<style lang="scss" src="./my-navbar.scss" scoped></style>

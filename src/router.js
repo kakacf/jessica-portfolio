@@ -7,12 +7,12 @@ let router = new VueRouter({
         {
             path:'/',  
             name:'home', 
-            component: () =>import('./views/Home'),
+            component: () =>import('./views/home'),
         },
         {
             path:'/projectimg',  
             name:'projectimg', 
-            component: () =>import('./components/ProjectImg')
+            component: () =>import('./components/project-img')
         },
     ],
     scrollBehavior(to, from, savedPosition) {

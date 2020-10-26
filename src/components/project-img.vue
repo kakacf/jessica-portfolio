@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import contact from "../components/Contact/Contact.vue";
+import contact from "../components/contact/contact.vue";
 export default {
   name: 'ProjectImg',
   components: {

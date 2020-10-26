@@ -1,5 +1,5 @@
 import * as project from '../../data/data';
-import projectContent from '../../components/ProjectContent/ProjectContent.vue';
+import projectContent from '../../components/project-content/project-content.vue';
 
 export default {
     name: 'Project',

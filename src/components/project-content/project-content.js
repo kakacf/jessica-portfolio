@@ -1,5 +1,3 @@
-// import * as project from '../../data/data';
-
 export default {
     name: 'ProjectContent',
     props: {

@@ -43,6 +43,6 @@
     </div>
 </template>
 
-<script src="./Project.js"></script>
+<script src="./project.js"></script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" src="./Project.scss" scoped></style>
+<style lang="scss" src="./project.scss" scoped></style>

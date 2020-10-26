@@ -14,10 +14,10 @@
 
 
 <script>
-import basicInfo from "../components/BasicInfo/BasicInfo.vue";
-import about from "../components/About/About.vue";
-import project from "../components/Project/Project.vue";
-import contact from "../components/Contact/Contact.vue";
+import basicInfo from "../components/basic-info/basic-info.vue";
+import about from "../components/about/about.vue";
+import project from "../components/project/project.vue";
+import contact from "../components/contact/contact.vue";
 
 export default {
   name: 'Home',

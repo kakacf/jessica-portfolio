@@ -1,7 +1,7 @@
-import * as mynavbar from '../../data/data';
+import * as myNavbar from '../../data/data';
 
 export default {
-    name: 'Mynavbar',
+    name: 'MyNavbar',
     data() {
         return {
             info: {},
@@ -34,7 +34,7 @@ export default {
         }
     },
     created() {
-        this.info = mynavbar.info
+        this.info = myNavbar.info
 
     },
     mounted() {
