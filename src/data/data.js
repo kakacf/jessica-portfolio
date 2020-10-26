@@ -94,37 +94,37 @@ const project = {
     {
       projectName: 'Homedical 醫生到我家 | Web / App',
       projectImage: 'homedical.png',
-      projectContent: 'Web部分：醫療人員個人管理後台、營運中心管理後台。App部分：醫療人員操作介面。',
+      projectContent: 'Homedical 是一個 "居家照護醫療" 系統。Web 部分：醫療人員個人管理後台、營運中心管理後台。App部分：醫療人員操作介面。醫療院所使用 Web 版的中心管理後台，約診、排班、派單給醫療人員，全方位掌控醫療人員出勤狀況，地圖定位，所有病情資料的紀錄等功能。醫療人員則使用手機版 App ，提供定位、撥電話、接單、病情紀錄、簽名、行事曆等功能。全系統使用Firebase做資料庫使用。',
       isImgLeft: true,
     },
     {
       projectName: '血液透析系統 | Web / App',
       projectImage: 'dialysissystem.png',
-      projectContent: '主要負責前端畫面及邏輯，配合個不同醫院需求撰寫不同專案。',
+      projectContent: '根據 "血液透析" 醫療流程規劃給專業醫療人員使用的系統，配合設計師使用 Angular material 刻畫前端畫面，撰寫前端操作使用邏輯，與後台串接 Api，配合不同院所需求客制個別專案。',
       isImgLeft: false,
     },
     {
-      projectName: 'PaPaLewis 管理者後台 | Web',
+      projectName: 'PaPaLewis 管理後台 | Web',
       projectImage: 'papalewis.png',
-      projectContent: 'Javascript, AJAX, Google Map Api, Chart.js, Google Charts',
+      projectContent: '咖啡店後台管理系統，純 JavaScript，無 Framework。提供商家資料、消費者、咖啡豆等資料管理。',
       isImgLeft: true,
     },
     {
       projectName: 'ismartboss 發票掃描 | iOS App',
       projectImage: 'ismartboss.png',
-      projectContent: 'Swift3, Camera, QRCode, UI-hard code, CLLocation',
+      projectContent: '掃描發票 QRCode，解析 QRCode 內容，紀錄消費清單。',
       isImgLeft: false,
     },
     {
       projectName: 'Travobook 旅書 | Android App',
       projectImage: 'travobook.png',
-      projectContent: 'Android Studio, Java, Camera, SQLite3, Google Maps Android API v2',
+      projectContent: '旅遊紀錄，可拍照筆記心情。',
       isImgLeft: true,
     },
     {
       projectName: 'Instagrom | iOS App',
       projectImage: 'instagrom.png',
-      projectContent: 'Xcode, Swift3, Firebase, Camera',
+      projectContent: '仿照 Instagram，可拍照筆記。',
       isImgLeft: false,
     },
   ]
@@ -134,7 +134,7 @@ const project = {
 const contact = {
   
     title: 'Contact',
-    message: 'Feel free to reach out through any platforms bellow:',
+    message: 'Please feel free to contact me.',
     email: 'chienfang0611@gmail.com',
     phone: '+886933302134',
     github: 'GitHub'

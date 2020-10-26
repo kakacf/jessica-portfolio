@@ -12,6 +12,9 @@ export default {
     },
     created() {
         this.info = basicInfo.info;
-
-    }
+        
+    },
+    mounted() {
+        
+    },
 }

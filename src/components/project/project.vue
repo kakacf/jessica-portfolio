@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-container fluid id="id-project">
+        <b-container fluid id="id-project" ref="projectRef">
             <div >
                 <h2 class="title">{{ info.project }}</h2>
             </div>

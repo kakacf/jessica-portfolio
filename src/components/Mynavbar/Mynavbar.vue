@@ -2,16 +2,18 @@
   <div>
     <b-navbar toggleable="lg" type="light" variant="light" fixed="top">
 
-      <b-navbar-brand href="#">{{ info.fullName }}</b-navbar-brand>
+      <b-navbar-brand to="/">{{ info.fullName }}</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
 
         <b-navbar-nav>
-          <b-nav-item href="#id-about">{{ info.about }}</b-nav-item>
-          <b-nav-item href="#id-project">{{ info.project }}</b-nav-item>
-          <b-nav-item href="#id-contact" v-b-toggle.id-contact v-on:click="$emit('opencontact')">{{ info.contact }}</b-nav-item>
+          <b-nav-item id="id-nav-about" v-on:click="goToHome('#id-about', 'aboutRef')">{{ info.about }}</b-nav-item>
+          <b-nav-item id="id-nav-project" v-on:click="goToHome('#id-project', 'projectRef')">{{ info.project }}</b-nav-item>
+          <b-nav-item id="id-nav-project" v-b-toggle v-on:click="goToHome('#id-contact', 'contactRef')">{{ info.contact }}</b-nav-item>
+
+          <!-- v-on:click="$emit('opencontact')"   v-b-toggle.id-contact-->
         </b-navbar-nav>
 
         

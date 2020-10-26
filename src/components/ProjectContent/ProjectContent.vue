@@ -15,6 +15,9 @@
                                 <div class="projectContent">
                                     {{ projectContent }}
                                 </div>
+                                <b-row align-h="start" style="padding: 1.25rem">
+                                    <b-button variant="outline-info" to="/projectimg">Info</b-button>
+                                </b-row>
                             </b-card-text>
                         </b-card-body>
                     </div>

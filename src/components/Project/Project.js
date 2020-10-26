@@ -21,8 +21,26 @@ export default {
         this.projectItems = project.project.items;
 
         
-        
-
+    
     },
+    mounted() {
+        
+        this.$bus.$on('projectRefAnchor', (refName) => {
+            var element = this.$refs[refName];
+            var top = element.offsetTop;
+            window.scrollTo(0, top);
+            console.log('event bus project on~~~');
+        });
+       
+        
+        
+    },
+    beforeDestroy() {
+        this.$bus.$off('projectRefAnchor');
+        console.log('event bus project off~~~');
+    
+            
+            
+      },
 
 }

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<b-container fluid id="id-about">
+		<b-container fluid id="id-about" ref="aboutRef">
 			<div>
 				<h2 class="title" v-once>About</h2>
 			</div>
@@ -34,14 +34,14 @@
 				</about-content>
 				<!-- education -->
 				<about-content
-					v-bind:is-simple-tpl="false"
-					v-bind:title="education.heading">
+					:is-simple-tpl="false"
+					:title="education.heading">
 					<div class="b-col">
 						<div
 							v-for="(education, index) in education.educations"
 							:key="index">
 							<div class="font-16">
-								<span><b>{{ education.qualification }} @{{ education.school }}</b></span>
+								<span><b>{{ education.qualification }} - {{ education.school }}</b></span>
 							</div>
 							<div class="font-14">
 								<span>{{ education.location }} {{ education.year }}</span>

@@ -22,6 +22,10 @@ export default {
         };
     },
     method: {
+        goToHello: function () {
+            this.$router.push('/projectimg');
+
+        }
 
 
     },
@@ -32,5 +36,8 @@ export default {
         
        
     },
-
+    mounted() {
+        
+        
+    },
 }

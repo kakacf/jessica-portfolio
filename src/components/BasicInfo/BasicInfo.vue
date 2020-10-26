@@ -5,14 +5,6 @@
             <img class="rounded-circle img-fluid avatar-img" src="../../assets/image/avatar2.jpg">
             <p class="title" v-once>Hi, I am {{ info.name }}</p>
             <p class="subTitle" v-once>{{ info.job }}</p>
-
-            <h3 class="ml7">
-                <span class="text-wrapper">
-                    <span class="letters">Reality is broken</span>
-                </span>
-            </h3>
-
-
         </b-container> 
     </div>
 </template>
