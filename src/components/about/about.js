@@ -1,5 +1,5 @@
 import aboutContent from '../../components/about-content/about-content.vue';
-import * as about from '../../data/data';
+import * as about from '../../data/data'; 
 
 export default {
   name: 'About',

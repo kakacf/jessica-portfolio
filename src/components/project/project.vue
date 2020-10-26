@@ -1,4 +1,4 @@
-<template>
+<template> 
     <div>
         <b-container fluid id="id-project" ref="projectRef">
             <div >

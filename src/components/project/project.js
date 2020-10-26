@@ -1,4 +1,4 @@
-import * as project from '../../data/data';
+import * as project from '../../data/data'; 
 import projectContent from '../../components/project-content/project-content.vue';
 
 export default {
