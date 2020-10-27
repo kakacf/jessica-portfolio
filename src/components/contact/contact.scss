@@ -1,0 +1,133 @@
+.container-fluid {
+    position: relative;
+    padding: 0px!important;
+    // width: 100%;
+    // min-height: 300px;
+    // background: url("../../assets/image/british-museum2.jpg") top center fixed no-repeat;
+    // background-size: cover;
+}
+
+.b-sidebar {
+    height: 100%!important;
+}
+
+.b-sidebar-header {
+    // font-size: 38px!important;
+    // overflow-y: hidden!important;
+    // width: 500px!important;
+    // height: initial!important;
+    // max-height: 100px!important;
+}
+
+.contactArea {
+    position: relative;
+}
+
+.contactImage {
+    position: absolute;
+    max-height: 85vh;
+    // width: 80%;
+    
+}
+
+.contactText {
+    position: absolute;
+    // width: 90%;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.contact__ul {
+    // margin-top: 40px;
+}
+
+.contact__li {
+    cursor: pointer;
+    color: white!important;
+    a {
+        color: white!important;
+    }
+}
+
+.contact__li:hover {
+    // background-color: white;
+    color: #0bbfc5!important;
+    a {
+        color: #0bbfc5!important;
+    }
+}
+
+
+::v-deep #id-contact {
+    height: 100%;
+    // background-color: #2a2a2a!important;
+}
+
+.img-fluid {
+    max-width: 90%;
+}
+
+// .contact__message {
+//     animation: caret 1s steps(1) infinite;
+// }
+
+// @keyframes caret {
+//     50% {
+//         border-color: transparent;
+//     }
+// }
+
+.contact__message {
+    position: absolute;
+    top: 0;  
+    max-width: 90%;
+    width: 20em;
+    margin: 20px 0px 20px 0px;
+    // margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 20px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+// .anim-typewriter{
+//   animation: typewriter 2s steps(31, end) 1s 1 normal both,
+//              blinkTextCursor 500ms steps(31, end) infinite normal;
+// }
+// @keyframes typewriter{
+//   from{width: 0;}
+//   to{width: 14em;}
+// }
+// @keyframes blinkTextCursor{
+//   from{border-right-color: rgba(255,255,255,.75);}
+//   to{border-right-color: transparent;}
+// }
+
+.message-div {
+    position: relative;
+    font-weight: bold;
+    font-size: 22px;
+}
+  
+.message-div .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+  
+.message-div ::v-deep.letter {
+    display: inline-block;
+    line-height: 1em;
+   
+}
+
+
+
+
